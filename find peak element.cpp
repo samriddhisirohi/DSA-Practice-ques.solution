@@ -41,3 +41,23 @@ If false → set right = nums[mid+1] (the actual right neighbor).*/
     }
     
 };
+
+//another simpler solution
+class Solution {
+public:
+    int findPeakElement(vector<int>& nums) {
+        int start = 0, end = nums.size() - 1;
+
+        while (start < end) {
+            int mid = start + (end - start) / 2;
+
+            if (nums[mid] > nums[mid + 1])
+                end = mid;       // peak is on the left side or at mid
+            else
+                start = mid + 1; // peak is on the right side
+
+        }
+
+        return start; // start == end = peak index
+    }
+};
