@@ -1,6 +1,6 @@
 This repo has my **Data Structures & Algorithms (DSA)** solutions  
 from sites like **LeetCode**, **GeeksForGeeks**, and **Codeforces**.  
-It’s a place to keep all my practice code, track progress,  
+It’s a place to keep all my practice code, track progress, 
 and revise before interviews.
 
 ## 🛠️ Tech Stack
@@ -11,6 +11,6 @@ and revise before interviews.
 - ## 📈 My Progress
 | Platform      | Problems Solved |
 |---------------|------------------|
-| LeetCode      | 15+ |
+| LeetCode      | 16+ |
 | GeeksForGeeks | 13+  |
 | Codeforces    | 0  |
