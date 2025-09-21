@@ -24,7 +24,8 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
 ## Approach / Algorithm
 1. made a vector temp to push_back all elements of both array.
-2. sort the temp to find its median
+2. sort the temp to find its median.
+3.condition/formula according whether size of temp even or odd.
 
 This gives **O((m + n) log(m + n))** time complexity **instead O(log(m+n))**
 and **O(m + n)** space complexity.
