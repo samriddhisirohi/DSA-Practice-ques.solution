@@ -11,6 +11,6 @@ and revise before interviews.
 - ## 📈 My Progress
 | Platform      | Problems Solved |
 |---------------|------------------|
-| LeetCode      | 20+ |
-| GeeksForGeeks | 15+  |
+| LeetCode      | 136+ |
+| GeeksForGeeks | 75+  |
 | Codeforces    | 0  |
