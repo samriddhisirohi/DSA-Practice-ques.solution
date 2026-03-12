@@ -1,0 +1,48 @@
+class Solution {
+  public:
+    vector<int> subarraySum(vector<int> &arr, int target) {
+        // code here
+        //optimal without use of deque t.c=O(n), s.c=O(1)
+        int st= 0 ;
+        int sum= 0 ;
+        for(int end=0; end<arr.size(); end++)
+        {
+            sum+= arr[end] ;
+            
+            while(sum>target)
+            {
+                sum-= arr[st] ;
+                st++ ;
+            }
+            
+            if(sum==target)
+            {
+                return {st+1,end+1} ;
+            }
+        }
+        return {-1} ;
+        
+        
+        /*deque<int>d ; t.c=O(n), s.c=O(n)
+        int sum= 0 ;
+       
+        for(int i=0; i<arr.size(); i++)
+        {   
+            sum+= arr[i] ;
+             d.push_back(i) ;
+            
+            while(!d.empty() && sum>target)
+            {
+                  sum-=arr[d.front()] ;
+                d.pop_front() ;
+              
+            }
+            
+            if(sum==target)
+            {
+               return{d.front()+1,d.back()+1} ;
+            }
+        }
+        return {-1} ;*/
+    }
+};
