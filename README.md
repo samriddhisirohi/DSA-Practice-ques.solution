@@ -7,8 +7,8 @@ and revise before interviews.
 - **Language:** C++
 - **Tools:** Git & GitHub
 - **Editor:** VS Code
-
-- ## My Progress
+  
+## My Progress
 | Platform      | Problems Solved |
 |---------------|------------------|
 | LeetCode      | 187+ |
