@@ -3,12 +3,12 @@ from sites like **LeetCode**, **GeeksForGeeks**, and **Codeforces**.
 It’s a place to keep all my practice code, track progress, 
 and revise before interviews.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Language:** C++
 - **Tools:** Git & GitHub
 - **Editor:** VS Code
 
-- ## 📈 My Progress
+- ## My Progress
 | Platform      | Problems Solved |
 |---------------|------------------|
 | LeetCode      | 187+ |
